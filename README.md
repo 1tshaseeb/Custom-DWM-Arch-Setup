@@ -10,7 +10,7 @@ Features
   📜 Status Bar: Lightweight and custom dwmblocks bar for system information like volume, CPU, and memory usage.\
   🎨 Theming and Patches: Personalized color schemes, layouts, and features added on top of the pre-built DWM setup.\
   ⚡ Lightweight Utilities: Essential tools like kitty (terminal emulator) and automation scripts for efficiency.\
-  🐧 ArcoLinux Base: Built on ArcoLinux, leveraging its tools and enhancements.\
+  🐧 ArcoLinux Base: Built on ArcoLinux, leveraging its tools and enhancements.
 
 Screenshots
 
@@ -27,7 +27,7 @@ Requirements
    kitty for the terminal emulator\
    feh for wallpapers\
    clipman for clipboard management\
-   dwmblocks for the status bar\
+   dwmblocks for the status bar
 
 Installation
 
@@ -61,13 +61,13 @@ Mod + D	Open application launcher (dmenu)\
 Mod + Q	Quit the focused window\
 Mod + H/L	Adjust window sizes\
 Mod + J/K	Switch focus between windows\
-Mod + B	Toggle status bar visibility\
+Mod + B	Toggle status bar visibility
 
 This repository is based on a pre-built DWM setup that has been heavily customized. Key configuration files include:
 
    config.h: Core configuration file for DWM, including patches and theming.\
    sxhkdrc: Keybinding configuration.\
-   autostart.sh: Script to run applications on startup.\
+   autostart.sh: Script to run applications on startup.
 
 Contributing
 
@@ -82,4 +82,4 @@ Acknowledgments
   DWM by suckless.\
   ArcoLinux for its excellent tools and pre-built configuration.\
   sxhkd by baskerville.\
-  Various contributors and the Linux community for inspiration.\
+  Various contributors and the Linux community for inspiration.

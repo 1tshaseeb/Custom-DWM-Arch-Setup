@@ -1,0 +1,96 @@
+#zen-browser
+super + x
+    zen-browser
+#Pcmanfm
+super + e
+    pcmanfm
+#vivaldi
+super + shift + v
+    vivaldi
+#clipman
+super + v
+    xclip -o -selection clipboard | dmenu -l 10 -i | xclip -selection clipboard -i
+
+#clipman
+super + alt + v
+    xsel -b | dmenu -l 10 -i | xsel -b
+
+#Terminal file management
+super + shift + f
+    kitty --class nnn -e nnn
+
+#BTOP
+super + shift + m
+    kitty --class btop -e btop
+
+#autoupdate
+super + u
+    kitty --hold -e ~/scripts/autoupdate.sh
+
+#powermenu
+super + shift + x
+    arcolinux-powermenu
+
+#kitty
+super + Return
+    kitty
+
+#Xkill
+super + Escape
+    xkill
+
+#dmenu
+super + d
+	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+
+#reload sxhkd:
+super + shift + s
+	pkill -USR1 -x sxhkd
+
+#flameshot
+super + shift + p
+     flameshot gui
+
+#flameshot
+super + shift + c
+     flameshot full -p ~/Pictures/Screenshots
+
+#Raises volume
+XF86AudioRaiseVolume
+    amixer -D pulse set Master 10%+
+
+#Lowers volume
+XF86AudioLowerVolume
+    amixer -D pulse set Master 10%-
+
+#Mute
+XF86AudioMute
+    amixer -D pulse set Master 1+ toggle
+
+#PLAY
+XF86AudioPlay
+    playerctl play-pause
+
+#Next
+XF86AudioNext
+    playerctl next
+
+#previous
+XF86AudioPrev
+    playerctl previous
+
+#Stop
+XF86AudioStop
+    playerctl stop
+
+#Brightness up
+XF86MonBrightnessUp
+    xbacklight -inc 10
+
+#Brightness down
+XF86MonBrightnessDown
+    xbacklight -dec 10
+
+#Picom Toggle
+ctrl + alt + o
+    ~/.config/arco-dwm/scripts/picom-toggle.sh

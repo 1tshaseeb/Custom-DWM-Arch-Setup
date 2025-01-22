@@ -14,7 +14,8 @@ Features
 
 Screenshots
 
-(Add screenshots of your setup here to showcase the aesthetics and functionality.)
+![2025-01-22_15-37](https://github.com/user-attachments/assets/ed8c1ace-6d95-47a6-8249-521557905b3b)
+
 
 
 

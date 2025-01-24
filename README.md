@@ -60,7 +60,7 @@ Key Combination	Action\
 Mod + Return	Launch kitty terminal\
 Mod + D	Open application launcher (dmenu)\
 Mod + Q	Quit the focused window\
-Mod + H/L	Adjust window sizes\
+Mod + E	File Manager\
 Mod + J/K	Switch focus between windows\
 Mod + B	Toggle status bar visibility
 

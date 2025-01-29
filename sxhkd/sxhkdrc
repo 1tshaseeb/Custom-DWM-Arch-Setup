@@ -7,13 +7,14 @@ super + e
 #vivaldi
 super + shift + v
     vivaldi
-#clipman
-super + v
-    xclip -o -selection clipboard | dmenu -l 10 -i | xclip -selection clipboard -i
 
-#clipman
-super + alt + v
-    xsel -b | dmenu -l 10 -i | xsel -b
+#Copyq
+super + v
+    copyq menu
+
+#Copyq
+super + shift + o
+    xclip -selection clipboard -o | copyq add -
 
 #Terminal file management
 super + shift + f

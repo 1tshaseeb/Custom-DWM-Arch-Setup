@@ -6,7 +6,7 @@ Features
   🖥️ Tiling Window Manager: Customized pre-built DWM configuration for a streamlined and efficient workspace.\
   ⌨️ sxhkd Keybindings: Flexible and intuitive keybindings with sxhkd.\
   🖼️ Wallpaper Management: Integrated with feh for dynamic wallpaper handling.\
-  📋 Clipboard Manager: Enhanced clipboard management with clipman.\
+  📋 Clipboard Manager: Enhanced clipboard management with copyq.\
   📜 Status Bar: Lightweight and custom dwmblocks bar for system information like volume, CPU, and memory usage.\
   🎨 Theming and Patches: Personalized color schemes, layouts, and features added on top of the pre-built DWM setup.\
   ⚡ Lightweight Utilities: Essential tools like kitty (terminal emulator) and automation scripts for efficiency.\

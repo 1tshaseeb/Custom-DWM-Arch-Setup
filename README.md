@@ -43,7 +43,7 @@ Build and Install DWM:
 
 Install Dependencies:
 
-    sudo pacman -S sxhkd feh betterlockscreen clipman kitty
+    sudo pacman -S sxhkd feh copq kitty
 
 Set Up Autostart: Ensure your ~/.xinitrc includes:
 
